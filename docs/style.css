@@ -95,14 +95,15 @@
   .main__profile-photo{
     width: 30px;
     height: 30px;
-    padding: 20px;
+    padding-block: 10px;
     align-items: center;
+    border-radius: 15px;
   }
   
   .main__proflile-fundo{
     height: 600px;
     width: 300px;
     align-items: center;
-    background: #E1603C;
+    background-color: #E1603C;
     border-radius: 15px;
   }
