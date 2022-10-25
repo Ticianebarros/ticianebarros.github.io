@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .screen-size {
+    height: 100vh;
+    width: 100vw;
+    padding: 3em;
+    background-color: #FFFFEF;
+    /*background-color: greenyellow;*/
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    height: 100%;
+  }
+  
+  .main__content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .main__content__title {
+    font-family: 'Rufina', serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #000000;
+  }
+
+.main__content__title b {
+  color: #B3391D;
+/*   background-image: linear-gradient(to right, red , yellow);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+}
+
+  .main__content__text {
+    font-family: 'Bellota Text', cursive;
+    text-align: justify;
+    font-size: 2em;
+    font-weight: 400;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+  }
+
+  .main__content__frase{
+    font-family: 'Bellota Text', cursive;
+    font-size: 1em;
+    font-weight: 400;
+    color: #000000;
+  }
+
+  .vesciculo{
+    font-family: 'Bellota Text', cursive;
+    font-size: 0.5em;
+    text-align: right;
+  }
+
+  .contacts{
+    font-family: 'Belleza', sans-serif;
+    font-size: 45px;
+    font-weight: 450;
+    color: #B3391D;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    padding-top: 3%;
+  }
+
+  .main__profile-photo{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .main__proflile-fundo{
+    height: 600px;
+    width: 300px;
+    align-items: center;
+    background: #E1603C;
+    border-radius: 15px;
+  }
