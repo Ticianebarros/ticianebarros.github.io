@@ -30,8 +30,9 @@
     font-family: 'Bellota Text', cursive, sans-serif;
     text-align: justify;
     font-size: 130%;
-    padding-bottom: 2%;
-    margin-left: 5%;
+    margin-inline: 26px;
+    /* padding: 5px;
+    margin-left: 15px; */
   }
 
   .proflile-foto img{
@@ -43,14 +44,15 @@
   
   .proflile-foto{
     text-align: left;
-    padding-left: 5%;
-    margin-bottom: 5%;
+    padding-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   
   section h3{
     font-family: 'Belleza', sans-serif;
     font-size: 35px;
-    margin-left: 5%;
+    margin-left: 25px;
     text-align: left;
   }
 
@@ -59,7 +61,7 @@
     font-size: 115%;
     text-align: justify;
     padding: 3px;
-    margin-inline: 20px;
+    margin-inline: 26px;
   }
 
   footer img{
@@ -70,7 +72,7 @@
   footer{
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 10%;
   }
 
   footer a{
@@ -90,5 +92,5 @@
     font-family: 'Bellota Text', cursive;
     font-size: 115%;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
   }
